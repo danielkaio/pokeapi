@@ -5,19 +5,17 @@
 }
 
 body{
-    background-color: #FFD738;
+    background-color: yellowgreen;
 }
 
 
-.pesquisa{
-    width: 100%;
-    height:75px;
-    background-color: #eee;
-    margin: 0 auto;
+
+img{
+    width: 150px;
+    
 }
 
-#filtro{
-    width: 70%;
-    display: inline-block;
-    padding: 10px;
+p{
+    text-align: center;
+    color: whitesmoke;
 }

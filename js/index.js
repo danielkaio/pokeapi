@@ -4,9 +4,17 @@ async function busca(nome){
     try {
         
         const url = await fetch(`https://pokeapi.co/api/v2/pokemon/${nome}`)
-        const nova = await url.json()
+        const c = await url.json()
+
         
-        console.log(nova)
+       
+        let p = document.querySelector('p')
+        p.innerText = c.name
+
+        let img = document.querySelector('img')
+        img.setAttribute('src',c.sprites.front_default)
+
+      
 
     } catch (erro) {
         
@@ -16,7 +24,5 @@ async function busca(nome){
 }
 
 
-let nome = document.querySelector('.cep')
+let nome  = document.querySelector('.nome')
 nome.addEventListener('focusout',()=> busca(nome.value))
-
-
