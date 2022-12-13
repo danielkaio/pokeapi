@@ -4,15 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: yellowgreen;
-}
 
-img{
+.card img{
     width: 150px;
+    margin: auto ;
+    display: block;
     
 }
 
+
+.card{
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    background-color:whitesmoke;
+    border: 3px black solid;
+    
+}
 p{
     text-align: center;
     color: #000;

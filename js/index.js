@@ -24,5 +24,9 @@ async function busca(nome){
 }
 
 
+
+
+
+
 let nome  = document.querySelector('.nome')
 nome.addEventListener('focusout',()=> busca(nome.value))
