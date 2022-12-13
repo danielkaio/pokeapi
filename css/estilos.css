@@ -6,7 +6,7 @@
 
 
 .card img{
-    width: 150px;
+    width: 75px;
     margin: auto ;
     display: block;
     
@@ -16,7 +16,7 @@
 .card{
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 150px;
     background-color:whitesmoke;
     border: 3px black solid;
     
