@@ -1,27 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.card img{
-    width: 75px;
-    margin: auto ;
-    display: block;
-    
-}
-
-
 .card{
-    margin: 20px;
-    width: 150px;
+
+    width: 350px;
     height: 150px;
-    background-color:whitesmoke;
-    border: 3px black solid;
+    background-color: darkorange;
+    border-radius: 50%;
+    margin: 0 auto;  
+    text-align: center;
+    border: 2px black solid; 
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.card p {
+    padding: 5px;
+    color: crimson;
+}
+
+
+
+input[type="search"]{
+    border-radius: 100px;
+    padding: 20px;
     
 }
-p{
-    text-align: center;
-    color: #000;
+
+input::placeholder{
+    color: mediumblue;
 }
