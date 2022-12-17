@@ -5,7 +5,7 @@ async function busca(nome){
         
         const url = await fetch(`https://pokeapi.co/api/v2/pokemon/${nome}`)
         const c = await url.json()
-        console.log(c)
+        
         
         let p = document.querySelector('p')
         p.innerText = c.name
