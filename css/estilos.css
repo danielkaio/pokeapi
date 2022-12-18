@@ -1,9 +1,14 @@
+body{
+    background-color: tomato;
+}
+
+
 .card{
 
     width: 350px;
     height: 150px;
     background-color: darkorange;
-    border-radius: 50%;
+    border-radius: 15px;
     margin: 0 auto;  
     text-align: center;
     border: 2px black solid; 
