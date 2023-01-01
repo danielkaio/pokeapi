@@ -7,11 +7,11 @@ body{
 
     width: 350px;
     height: 150px;
-    background-color: darkorange;
-    border-radius: 15px;
+    background-color: #ff8c00;
+    border-radius: 30px;
     margin: 0 auto;  
     text-align: center;
-    border: 2px black solid; 
+    border: 2px whitesmoke solid; 
 }
 
 img{
@@ -27,12 +27,22 @@ img{
 
 
 
-input[type="search"]{
-    border-radius: 100px;
-    padding: 20px;
-    
-}
 
 input::placeholder{
     color: mediumblue;
+}
+
+.form{
+   
+    text-align: center;
+    display:  block;
+    padding: 20px;
+}
+
+.nome {
+    padding: 20px;
+}
+
+label{
+    width: 300px;
 }
