@@ -1,48 +1,39 @@
 body{
-    background-color: tomato;
+    background-color: orangered;
 }
+
+.nome{
+    padding: 10px;
+    width: 300px;
+    margin: 0 0 40px;
+    
+}
+
+
+label{
+    background-color: yellowgreen;
+    padding: 10px;
+}
+   
 
 
 .card{
-
-    width: 350px;
-    height: 150px;
-    background-color: #ff8c00;
-    border-radius: 30px;
-    margin: 0 auto;  
-    text-align: center;
-    border: 2px whitesmoke solid; 
-}
-
-img{
-    width: 100px;
-    height: 100px;
-}
-
-
-.card p {
-    padding: 5px;
-    color: crimson;
-}
-
-
-
-
-input::placeholder{
-    color: mediumblue;
-}
-
-.form{
-   
-    text-align: center;
-    display:  block;
-    padding: 20px;
-}
-
-.nome {
-    padding: 20px;
-}
-
-label{
     width: 300px;
+    height: 150px;
+    background-color: crimson;
+    margin: 0 40px;
+   
+}
+
+.card  img{
+    text-align: center;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+.card p{
+    color: wheat;
+    text-align: center;
 }
